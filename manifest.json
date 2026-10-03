@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "paulhocker.omarchy-plugin-chuck",
+  "name": "Chuck Norris",
+  "version": "1.0.0",
+  "author": "Paul Hocker",
+  "license": "MIT",
+  "description": "Random Chuck Norris jokes in the bar",
+  "preview": "preview.png",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Chuck Norris",
+    "description": "Random Chuck Norris jokes on hover/click",
+    "category": "Fun",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
